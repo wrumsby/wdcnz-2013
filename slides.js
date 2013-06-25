@@ -31,11 +31,6 @@ var SLIDES = [
 	},
 
 	{
-		"image": "http://www.flickr.com/photos/feverblue/3865671508/",
-		"notes": "modules help us break big apps into those bite-sized pieces"
-	},
-
-	{
 		"quote": {
 			"text": "module: a unit of source code with optional imports and exports",
 			"from": "John Hann via Yehuda Katz"
@@ -44,7 +39,13 @@ var SLIDES = [
 	},
 
 	{
-		"tweet": "https://twitter.com/keranm/status/315670961594699777"
+		"image": "http://www.flickr.com/photos/feverblue/3865671508/",
+		"notes": "modules help us break big apps into those bite-sized pieces"
+	},
+
+	{
+		"tweet": "https://twitter.com/keranm/status/315670961594699777",
+		"notes": "module loaders can help with this problem"
 	},
 
 	{
@@ -57,7 +58,27 @@ var SLIDES = [
 
 	{
 		"image": "http://www.flickr.com/photos/insouciance/3061759623/",
-		"notes": "seems more of a conclusion thing"
+		"notes": "modules provide a better developer workflow"
+	},
+
+	{
+		"image": "http://www.flickr.com/photos/government-lists-canada/6547052643/",
+		"notes": "how"
+	},
+
+	{
+		"gist": "https://gist.github.com/wrumsby/5857534",
+		"notes": "Bolderiser is attached to the Y instance"
+	},
+
+	{
+		"gist": "https://gist.github.com/wrumsby/5857594",
+		"notes": "Loader config repeats YUI.add requires info"
+	},
+
+	{
+		"gist": "https://gist.github.com/wrumsby/5857564",
+		"notes": "applyConfig - shown here for clarify"
 	},
 
 	{
