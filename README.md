@@ -1,5 +1,4 @@
-# The Loading Point
-## How Little Modules Can Make a Big Difference
+# The Loading Point: How Little Modules Can Make a Big Difference
 
 WDCNZ 2013 Presentation
 
