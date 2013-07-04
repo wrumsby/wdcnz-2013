@@ -103,7 +103,7 @@ var SLIDES = [
 	},
 
 	{
-		"text": "Y.Bolderiser = Bolderiser;",
+		"text": "Y.My.Bolderiser = Bolderiser;",
 		"notes": "Add to sandbox (sandbox vs. global), kinda like a jQuery plugin"
 	},
 
