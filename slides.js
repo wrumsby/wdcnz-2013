@@ -2,7 +2,7 @@ var SLIDES = [
 	{
 		"cls": "first",
 		"title": "Hi",
-		"notes": "Who am I?"
+		"notes": "I'm a FED at Xero; writing JavaScript in the browser since 98"
 	},
 
 	{
@@ -10,7 +10,13 @@ var SLIDES = [
 		"title": "The Loading Point: How Little Modules Can Make a Big Difference",
 		"lanyrd": "http://lanyrd.com/scfkyb",
 		"hashtag": "jsmod",
-		"notes": "What is this about? This is opinion"
+		"notes": "My opinion on modules & package mgrs for the browser"
+	},
+
+	{
+		"cls": "first",
+		"title": "Conclusion: you should use modules, they're awseome.",
+		"notes": "Conclusion: you should use modules, they're awseome"
 	},
 
 	{
@@ -19,7 +25,7 @@ var SLIDES = [
 			"from": "Steve Yegge"
 		},
 		"image": "http://www.flickr.com/photos/zapthedingbat/517644777/",
-		"notes": "http://steve-yegge.blogspot.co.nz/2007/12/codes-worst-enemy.html"
+		"notes": "Stevey - size is the worst thing; ironic"
 	},
 
 	{
@@ -27,7 +33,8 @@ var SLIDES = [
 			"text":	"The secret to building large apps is never build large apps. Break your applications into small pieces. Then, assemble those testable,  bite-sized pieces into your big application",
 			"from":	"Justin Meyer, JavaScript MVC"
 		},
-		"image": "http://www.flickr.com/photos/62472560@N00/4679740934/"
+		"image": "http://www.flickr.com/photos/62472560@N00/4679740934/",
+		"notes": "Justin Meyer - secret is to break app into small pieces; testable; not 10k LoC"
 	},
 
 	{
@@ -98,6 +105,27 @@ var SLIDES = [
 	},
 
 	{
+		"gist": "https://gist.github.com/wrumsby/5907742"
+	},
+
+	{
+		"image": "http://www.flickr.com/photos/26752267@N00/6171891884/in/photolist-apoyr3-apkQkM-apoyks-apkQsr-9DMQTP-7JN6Un-916PJX-ckpdMA-eQPtdB-a3DakL-9hgabJ-7WaPk1-8oJxvQ-aoefGi-dtU9tp-aoehCe-89A6WU-8rwqWJ-8rthfg-8rwqNq-8rtku4-8rwoPJ-8rwpvG-8rwpWo-8rtkeF-8rwpNj-8rwouf-8rtifr-8rwoZm-8rwmWJ-8rtgCB-8rth6B-8rwrdf-8rtgNr-8rwpkS-8rthpM-8rtjja-8rtgXk-8rwoDN-8rwqvy-8rwqDQ-8rwnaE-8rwnmN-8rwqmJ-8rtiKV-8rwq5d-9Yeewb-aoh37C-8zWGWa-8zWH6T-9XweDb"
+	},
+
+	{
+		"gist": "https://gist.github.com/wrumsby/5907846"
+	},
+
+	{
+		"gist": "https://gist.github.com/wrumsby/5907863",
+		"notes": "Convention based, namespaces, magic, require"
+	},
+
+	{
+		"gist": "https://gist.github.com/wrumsby/5907875"
+	},
+
+	{
 		"image": "http://www.flickr.com/photos/cogdog/4643688405/",
 		"notes": "idioms"
 	},
@@ -132,23 +160,6 @@ var SLIDES = [
 		"cls": "full"
 	},
 	
-	{
-		"image": "http://www.flickr.com/photos/26752267@N00/6171891884/in/photolist-apoyr3-apkQkM-apoyks-apkQsr-9DMQTP-7JN6Un-916PJX-ckpdMA-eQPtdB-a3DakL-9hgabJ-7WaPk1-8oJxvQ-aoefGi-dtU9tp-aoehCe-89A6WU-8rwqWJ-8rthfg-8rwqNq-8rtku4-8rwoPJ-8rwpvG-8rwpWo-8rtkeF-8rwpNj-8rwouf-8rtifr-8rwoZm-8rwmWJ-8rtgCB-8rth6B-8rwrdf-8rtgNr-8rwpkS-8rthpM-8rtjja-8rtgXk-8rwoDN-8rwqvy-8rwqDQ-8rwnaE-8rwnmN-8rwqmJ-8rtiKV-8rwq5d-9Yeewb-aoh37C-8zWGWa-8zWH6T-9XweDb"
-	},
-
-	{
-		"gist": "https://gist.github.com/wrumsby/5907846"
-	},
-
-	{
-		"gist": "https://gist.github.com/wrumsby/5907863",
-		"notes": "Convention based, namespaces, magic, require"
-	},
-
-	{
-		"gist": "https://gist.github.com/wrumsby/5907875"
-	},
-
 	{
 		"image": "http://www.flickr.com/photos/49512158@N00/6231468612/",
 		"title": "Thank you!",
