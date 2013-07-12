@@ -45,7 +45,7 @@ var SLIDES = [
 	{
 		"quote": {
 			"text": "module: a unit of source code with optional imports and exports",
-			"from": "John Hann (via Yehuda Katz)"
+			"from": "Yehuda Katz"
 		},
 		"image": "http://www.flickr.com/photos/sayamindu/5677674922/",
 		"notes": "module - unit of source code w/ optional imports & exports"
@@ -54,7 +54,7 @@ var SLIDES = [
 	{
 		"quote": {
 			"text": "loader: an object that defines how modules are fetched, translated and compiled into a module instance object",
-			"from": "John Hann (via Yehuda Katz)"
+			"from": "Yehuda Katz"
 		},
 		"image": "http://www.flickr.com/photos/moehre1992/8436105600/",
 		"notes": "loader: an object that defines how modules are fetched, translated and compiled into a module instance object"
@@ -133,7 +133,7 @@ var SLIDES = [
 
 	{
 		"image": "http://www.flickr.com/photos/clearlydived/8410899161/",
-		"notes": "Did you notice anything missing from my ExtJS code?"
+		"notes": "Did you notice anything missing from my ExtJS code? JavaScript is versatile - can plug holes, but..."
 	},
 
 	{
@@ -147,40 +147,16 @@ var SLIDES = [
 
 	{
 		"image": "http://www.flickr.com/photos/cedwardmoran/542701018/",
-		"tweet": "https://twitter.com/wycats/status/355133508760514560"
+		"tweet": "https://twitter.com/wycats/status/355133508760514560",
+		"notes": "ES6 modules are use strict by default"
 	},
 
 	{
-		"notes": "So which one?"
+		"image": "http://www.flickr.com/photos/barbourians/6662357209/"
 	},
 
 	{
-		"notes": "YUI - Flickr; AMD - LinkedIn; ExtJS - Xero; ES6 - 2016 or use transpiler"
-	},
-
-	{
-		"image": "http://www.flickr.com/photos/cogdog/4643688405/",
-		"notes": "idioms"
-	},
-
-	{
-		"text": "Y.My.Bolderiser = Bolderiser;",
-		"notes": "In YUI you attach your export to the sandbox (sandbox vs. global); n.b. it's not global"
-	},
-
-	{
-		"text": "return Bolderiser;",
-		"notes": "With AMD return your export to the sandbox"
-	},
-
-	{
-		"text": "Ext.define('My.Bolderiser', { ... });",
-		"notes": "Namespace, i.e. global"
-	},
-
-	{
-		"gist": "https://gist.github.com/wrumsby/5914632",
-		"notes": "confusing... NodeUp"
+		"gist": "https://gist.github.com/wrumsby/5974173"
 	},
 
 	{
@@ -195,6 +171,32 @@ var SLIDES = [
 
 	{
 		"text": "Making your module available to AMD if it's there"
+	},
+	
+
+	{
+		"image": "http://www.flickr.com/photos/3059349393/3786855827/",
+		"notes": "So which one?"
+	},
+
+	{
+		"quote": {
+			"text": "Next time you start an app download require.js first",
+			"from": "Alex Sexton"
+		},
+		"image": "http://www.flickr.com/photos/rdmey/4428476184/"
+	},
+
+	{
+		"tweet": "https://twitter.com/garannm/status/342380693743075328"
+	},
+
+	{
+		"tweet": "https://twitter.com/ryanseddon/status/342496267957575681"
+	},
+
+	{
+		"notes": "UMD; YUI - Flickr; AMD - LinkedIn; ExtJS - Xero; ES6 - 2016 or use transpiler"
 	},
 	
 	{
