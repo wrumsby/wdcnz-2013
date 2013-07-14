@@ -205,7 +205,12 @@ var SLIDES = [
 	{
 		"notes": "UMD; YUI - Flickr; AMD - LinkedIn; ExtJS - Xero; ES6 - 2016 or use transpiler"
 	},
-	
+
+	{
+		"tweet": "https://twitter.com/wrumsby/status/355847809708208129",
+		"notes": "Package managers"
+	},
+
 	{
 		"image": "http://www.flickr.com/photos/49512158@N00/6231468612/",
 		"title": "Thank you!",
