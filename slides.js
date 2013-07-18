@@ -68,7 +68,7 @@ var SLIDES = [
 	{
 		"tweet": "https://twitter.com/keranm/status/315670961594699777",
 		"image": "http://www.flickr.com/photos/wrumsby/8586255091/in/set-72157632927950302",
-		"notes": "imports & exports enable dependency management"
+		"notes": "imports & exports enable dependency management - talk up benefits/whys more"
 	},
 
 	{
@@ -133,7 +133,8 @@ var SLIDES = [
 
 	{
 		"image": "http://www.flickr.com/photos/clearlydived/8410899161/",
-		"notes": "Did you notice anything missing from my ExtJS code? JavaScript is versatile - can plug holes, but..."
+		"notes": "Did you notice anything missing from my ExtJS code? JavaScript is versatile - can plug holes, but...",
+		"opinion": true
 	},
 
 	{
@@ -152,7 +153,8 @@ var SLIDES = [
 	},
 
 	{
-		"image": "http://www.flickr.com/photos/barbourians/6662357209/"
+		"image": "http://www.flickr.com/photos/barbourians/6662357209/",
+		"notes": "When? 2016 - old IE; there are transpilers & polyfills"
 	},
 
 	{
@@ -173,17 +175,44 @@ var SLIDES = [
 	{
 		"text": "http://l.yimg.com/g/combo/1/3.7.3?cookie/cookie-min.js&oop/oop-min.js&attribute-core/attribute-core-min.js&base-core/base-core-min.js&event-custom-base/event-custom-base-min.js&event-custom-complex/event-custom-complex-min.js&attribute-events/attribute-events-min.js&attribute-extras/attribute-extras-min.js&attribute-base/attribute-base-min.js&attribute-complex/attribute-complex-min.js&base-base/base-base-min.js&dom-core/dom-core-min.js&dom-base/dom-base-min.js&dom-style/dom-style-min.js&selector-native/selector-native-min.js&selector/selector-min.js&node-core/node-core-min.js&node-base/node-base-min.js&event-base/event-base-min.js&node-style/node-style-min.js&anim-base/anim-base-min.js&anim-color/anim-color-min.js&dom-screen/dom-screen-min.js&node-screen/node-screen-min.js&anim-xy/anim-xy-min.js&anim-curve/anim-curve-min.js&anim-easing/anim-easing-min.js&pluginhost-base/pluginhost-base-min.js&pluginhost-config/pluginhost-config-min.js&node-pluginhost/node-pluginhost-min.js&anim-node-plugin/anim-node-plugin-min.js&anim-scroll/anim-scroll-min.js&event-delegate/event-delegate-min.js&event-synthetic/event-synthetic-min.js&event-mousewheel/event-mousewheel-min.js&event-mouseenter/event-mouseenter-min.js&event-key/event-key-min.js&event-focus/event-focus-min.js&event-resize/event-resize-min.js&event-hover/event-hover-min.js&event-outside/event-outside-min.js&event-touch/event-touch-min.js&event-move/event-move-min.js&event-flick/event-flick-min.js&event-valuechange/event-valuechange-min.js&event-tap/event-tap-min.js&base-pluginhost/base-pluginhost-min.js&base-build/base-build-min.js&node-event-delegate/node-event-delegate-min.js&classnamemanager/classnamemanager-min.js&widget-base/widget-base-min.js&widget-htmlparser/widget-htmlparser-min.js&widget-skin/widget-skin-min.js&widget-uievents/widget-uievents-min.js&widget-stdmod/widget-stdmod-min.js&widget-position/widget-position-min.js&widget-position-align/widget-position-align-min.js&widget-stack/widget-stack-min.js",
 		"cls": "full",
-		"notes": "combo loader is async so non-blocking"
+		"notes": "combo loader is async so non-blocking; Souders"
 	},
 
 	{
-		"text": "Making your module available to AMD if it's there"
+		"gist": "https://gist.github.com/wrumsby/6019257",
+		"notes": "r.js + grunt; Ext - concat -- talk about shimming more and addtional config"
 	},
 
+	{
+		"gist": "https://gist.github.com/wrumsby/6019280",
+		"notes": "only diff here is the baseUrl"
+	},
+
+	{
+		"image": "http://www.flickr.com/photos/zooboing/7523534982/",
+		"notes": "patterns"
+	},
+
+	{
+		"gist": "https://gist.github.com/wrumsby/6019354",
+		"notes": "UMD; grunt-umd"
+	},
+
+	{
+		"notes": "TODO: singleton, class, other stuff from @unscriptable; YUI submodules"
+	},
 
 	{
 		"image": "http://www.flickr.com/photos/3059349393/3786855827/",
-		"notes": "So which one?"
+		"notes": "So which one? YUI - Flickr; AMD - LinkedIn; ExtJS - Xero; ES6 - 2016 or use transpiler"
+	},
+
+	{
+		"tweet": "https://twitter.com/ryanseddon/status/342496267957575681"
+	},
+
+	{
+		"tweet": "https://twitter.com/garannm/status/342380693743075328"
 	},
 
 	{
@@ -195,15 +224,25 @@ var SLIDES = [
 	},
 
 	{
-		"tweet": "https://twitter.com/garannm/status/342380693743075328"
+		"cls": "first",
+		"title": "Conclusion: you should use modules, they're awseome.",
+		"notes": "Conclusion: you should use modules, they're awseome; shimming"
 	},
 
 	{
-		"tweet": "https://twitter.com/ryanseddon/status/342496267957575681"
+		"notes": "modular thinking; tiny modules - really simple modules that only do 1 thing"
 	},
 
 	{
-		"notes": "UMD; YUI - Flickr; AMD - LinkedIn; ExtJS - Xero; ES6 - 2016 or use transpiler"
+		"quote": {
+			"text": "The best thing that can be said of [any piece of] software is that it is too small",
+			"from": "James Halliday aka @substack"
+		},
+		"image": "http://www.flickr.com/photos/theodorescott/8607310734/"
+	},
+
+	{
+		"gist": "https://gist.github.com/substack/5075355"
 	},
 
 	{
