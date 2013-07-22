@@ -38,6 +38,11 @@ var SLIDES = [
 	},
 
 	{
+		"tweet": "https://twitter.com/beyersdorfinger/status/356730136613240832",
+		"image": "http://www.flickr.com/photos/dmitry-baranovskiy/2378867408/"
+	},
+
+	{
 		"image": "http://www.flickr.com/photos/feverblue/3865671508/",
 		"notes": "modules help us break big apps into those bite-sized pieces"
 	},
@@ -68,12 +73,12 @@ var SLIDES = [
 	{
 		"tweet": "https://twitter.com/keranm/status/315670961594699777",
 		"image": "http://www.flickr.com/photos/wrumsby/8586255091/in/set-72157632927950302",
-		"notes": "imports & exports enable dependency management - talk up benefits/whys more"
+		"notes": "imports & exports enable dependency management - different approaches - all have on thing in common, simplified dependency management"
 	},
 
 	{
 		"image": "http://www.flickr.com/photos/26752267@N00/6171360453/in/photolist-apkQsr-dtU9tp-aoehCe-89A6WU-8rwqWJ-8rthfg-8rwqNq-8rtku4-8rwoPJ-8rwpvG-8rwpWo-8rtkeF-8rwpNj-8rwouf-8rtifr-8rwoZm-8rwmWJ-8rtgCB-8rth6B-8rwrdf-8rtgNr-8rwpkS-8rthpM-8rtjja-8rtgXk-8rwoDN-8rwqvy-8rwqDQ-8rwnaE-8rwnmN-8rwqmJ-8rtiKV-8rwq5d-9Yeewb-aoh37C-8zWGWa-8zWH6T-9XweDb-7MNorS-7MJoYi-ckpfuG-9yVNx5",
-		"notes": "Initally look at YUI modules because they were the 1st to do async; Y3 is completely modular & they have an interesting production story; James Burke discusses this in RequireJS history"
+		"notes": "Initally look at YUI modules because they were the 1st to do *async*; Y3 is completely modular & they have an interesting production story; James Burke discusses this in RequireJS history"
 	},
 
 	{
@@ -93,7 +98,7 @@ var SLIDES = [
 
 	{
 		"image": "http://www.flickr.com/photos/martinhoward/6171889982/",
-		"notes": "Most folks writing modular JavaScript in the browser are probably using AMD, inspired by YUI & Dojo"
+		"notes": "Most folks writing modular JavaScript in the browser are probably using AMD, inspired by YUI & Dojo; RequireJS, CURL; Boilerplate (REALLY!?!); MooTools 2; Dojo 1.6; jQuery"
 	},
 
 	{
@@ -168,14 +173,28 @@ var SLIDES = [
 	},
 
 	{
+		"image": "http://www.flickr.com/photos/amboo213/4861833706/",
+		"notes": "shimming"
+	},
+
+	{
+		"gist": "https://gist.github.com/wrumsby/6044532",
+		"notes": "Lo-Dash"
+	},
+
+	{
+		"gist": "https://gist.github.com/wrumsby/6044648"
+	},
+
+	{
 		"image": "http://www.flickr.com/photos/danielfoster/4725849931/",
-		"notes": "production"
+		"notes": "production - there is a build step - you can't avoid it - use grunt"
 	},
 
 	{
 		"text": "http://l.yimg.com/g/combo/1/3.7.3?cookie/cookie-min.js&oop/oop-min.js&attribute-core/attribute-core-min.js&base-core/base-core-min.js&event-custom-base/event-custom-base-min.js&event-custom-complex/event-custom-complex-min.js&attribute-events/attribute-events-min.js&attribute-extras/attribute-extras-min.js&attribute-base/attribute-base-min.js&attribute-complex/attribute-complex-min.js&base-base/base-base-min.js&dom-core/dom-core-min.js&dom-base/dom-base-min.js&dom-style/dom-style-min.js&selector-native/selector-native-min.js&selector/selector-min.js&node-core/node-core-min.js&node-base/node-base-min.js&event-base/event-base-min.js&node-style/node-style-min.js&anim-base/anim-base-min.js&anim-color/anim-color-min.js&dom-screen/dom-screen-min.js&node-screen/node-screen-min.js&anim-xy/anim-xy-min.js&anim-curve/anim-curve-min.js&anim-easing/anim-easing-min.js&pluginhost-base/pluginhost-base-min.js&pluginhost-config/pluginhost-config-min.js&node-pluginhost/node-pluginhost-min.js&anim-node-plugin/anim-node-plugin-min.js&anim-scroll/anim-scroll-min.js&event-delegate/event-delegate-min.js&event-synthetic/event-synthetic-min.js&event-mousewheel/event-mousewheel-min.js&event-mouseenter/event-mouseenter-min.js&event-key/event-key-min.js&event-focus/event-focus-min.js&event-resize/event-resize-min.js&event-hover/event-hover-min.js&event-outside/event-outside-min.js&event-touch/event-touch-min.js&event-move/event-move-min.js&event-flick/event-flick-min.js&event-valuechange/event-valuechange-min.js&event-tap/event-tap-min.js&base-pluginhost/base-pluginhost-min.js&base-build/base-build-min.js&node-event-delegate/node-event-delegate-min.js&classnamemanager/classnamemanager-min.js&widget-base/widget-base-min.js&widget-htmlparser/widget-htmlparser-min.js&widget-skin/widget-skin-min.js&widget-uievents/widget-uievents-min.js&widget-stdmod/widget-stdmod-min.js&widget-position/widget-position-min.js&widget-position-align/widget-position-align-min.js&widget-stack/widget-stack-min.js",
 		"cls": "full",
-		"notes": "combo loader is async so non-blocking; Souders"
+		"notes": "combo loader is async so non-blocking; Souders; conditional; millions of page views - *every* page at Yahoo!"
 	},
 
 	{
@@ -185,12 +204,12 @@ var SLIDES = [
 
 	{
 		"gist": "https://gist.github.com/wrumsby/6019280",
-		"notes": "only diff here is the baseUrl"
+		"notes": "only diff here is the baseUrl (check this - require vs. require.config)"
 	},
 
 	{
-		"image": "http://www.flickr.com/photos/zooboing/7523534982/",
-		"notes": "patterns"
+		"image": "http://www.flickr.com/photos/asjaboros/6069841484/",
+		"notes": "patterns -- too much code? mention submodules"
 	},
 
 	{
@@ -199,7 +218,29 @@ var SLIDES = [
 	},
 
 	{
-		"notes": "TODO: singleton, class, other stuff from @unscriptable; YUI submodules"
+		"gist": "https://gist.github.com/wrumsby/6047941",
+		"notes": "AMD singleton - some loaders will let you specify an object instead of a function as the define callback"
+	},
+
+	{
+		"gist": "https://gist.github.com/wrumsby/6047965",
+		"notes": "AMD constructor"
+	},
+
+	{
+		"gist": "https://gist.github.com/wrumsby/6047972",
+		"notes": "AMD function"
+	},
+
+	{
+		"gist": "https://gist.github.com/wrumsby/5914632",
+		"notes": "YUI submodules"
+	},
+
+	{
+		"title": "unscriptable.com/code/\nAMD-module-patterns/",
+		"image": "http://www.flickr.com/photos/dreamsjung/3040455466/",
+		"notes": "architectural patterns"
 	},
 
 	{
@@ -230,6 +271,7 @@ var SLIDES = [
 	},
 
 	{
+		"image": "http://www.flickr.com/photos/falequin/8443342362/",
 		"notes": "modular thinking; tiny modules - really simple modules that only do 1 thing"
 	},
 
@@ -242,12 +284,14 @@ var SLIDES = [
 	},
 
 	{
-		"gist": "https://gist.github.com/substack/5075355"
+		"gist": "https://gist.github.com/substack/5075355",
+		"notes": "npm size - number of modules; node philosophy; package manager war"
 	},
 
 	{
-		"tweet": "https://twitter.com/wrumsby/status/355847809708208129",
-		"notes": "Package managers"
+		"cls": "first",
+		"title": "Conclusion: you should use modules, they're awseome.",
+		"notes": "Conclusion: you should use modules, they're awseome; shimming"
 	},
 
 	{
