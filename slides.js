@@ -1,16 +1,16 @@
 var SLIDES = [
 	{
 		"cls": "first",
-		"title": "Hi",
-		"notes": "I'm a FED at Xero; writing JavaScript in the browser since 98"
-	},
-
-	{
-		"cls": "first",
 		"title": "The Loading Point: How Little Modules Can Make a Big Difference",
 		"lanyrd": "http://lanyrd.com/scfkyb",
 		"hashtag": "jsmod",
 		"notes": "My opinion on modules & package mgrs for the browser"
+	},
+
+	{
+		"cls": "first",
+		"title": "Hi",
+		"notes": "I'm a FED at Xero; writing JavaScript in the browser since 98"
 	},
 
 	{
