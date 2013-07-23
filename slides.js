@@ -4,19 +4,19 @@ var SLIDES = [
 		"title": "The Loading Point: How Little Modules Can Make a Big Difference",
 		"lanyrd": "http://lanyrd.com/scfkyb",
 		"hashtag": "jsmod",
-		"notes": "My opinion on modules & package mgrs for the browser"
+		"notes": "My opinion on modules for the browser"
 	},
 
 	{
 		"cls": "first",
 		"title": "Hi",
-		"notes": "I'm a FED at Xero; writing JavaScript in the browser since 98"
+		"notes": "Me; "
 	},
 
 	{
 		"cls": "first",
-		"title": "Conclusion: you should use modules, they're awseome.",
-		"notes": "Conclusion: you should use modules, they're awseome"
+		"title": "Conclusion: you should use modules, they're awesome.",
+		"notes": "Overview - going to look at code, libs we're using"
 	},
 
 	{
@@ -25,7 +25,19 @@ var SLIDES = [
 			"from": "Steve Yegge"
 		},
 		"image": "http://www.flickr.com/photos/zapthedingbat/517644777/",
-		"notes": "Stevey - size is the worst thing; ironic"
+		"notes": "we're buiding bigger apps - scale presents challenges; when faced with those challenges try new things"
+	},
+
+	{
+		"tweet": "https://twitter.com/keranm/status/315670961594699777",
+		"image": "http://www.flickr.com/photos/wrumsby/8586255091/in/set-72157632927950302",
+		"notes": "when you rely on other js libs managing dependencies beccomes a challenge; modules are better for consumers and producer"
+	},
+
+	{
+		"tweet": "https://twitter.com/beyersdorfinger/status/356730136613240832",
+		"image": "http://www.flickr.com/photos/dmitry-baranovskiy/2378867408/",
+		"notes": "modules help us break things down into smaller, easier to understand pieces"
 	},
 
 	{
@@ -38,13 +50,23 @@ var SLIDES = [
 	},
 
 	{
-		"tweet": "https://twitter.com/beyersdorfinger/status/356730136613240832",
-		"image": "http://www.flickr.com/photos/dmitry-baranovskiy/2378867408/"
+		"image": "http://www.flickr.com/photos/feverblue/3865671508/",
+		"notes": "modules help us break big apps into those bite-sized pieces - benefits of a modular approach: small, testable, reusable, cohesive",
+		"title": "modules are bite-sized"
 	},
 
 	{
-		"image": "http://www.flickr.com/photos/feverblue/3865671508/",
-		"notes": "modules help us break big apps into those bite-sized pieces"
+		"quote": {
+			"text": "The best thing that can be said of [any piece of] software is that it is too small",
+			"from": "James Halliday aka @substack"
+		},
+		"image": "http://www.flickr.com/photos/theodorescott/8607310734/",
+		"notes": "unix philosophy - @substack, most modules on npm"
+	},
+
+	{
+		"image": "http://www.flickr.com/photos/wrumsby/9346033647/",
+		"notes": "a picture"
 	},
 
 	{
@@ -67,28 +89,24 @@ var SLIDES = [
 
 	{
 		"image": "http://www.flickr.com/photos/insouciance/3061759623/",
-		"notes": "The reason I think you should write your JavaScript using modules is that modules provide a better developer workflow"
+		"notes": "The reason I think you should write your JavaScript using modules is that modules provide a better developer workflow",
+		"title": "sweet workflow"
 	},
 
-	{
-		"tweet": "https://twitter.com/keranm/status/315670961594699777",
-		"image": "http://www.flickr.com/photos/wrumsby/8586255091/in/set-72157632927950302",
-		"notes": "imports & exports enable dependency management - different approaches - all have on thing in common, simplified dependency management"
-	},
 
 	{
 		"image": "http://www.flickr.com/photos/26752267@N00/6171360453/in/photolist-apkQsr-dtU9tp-aoehCe-89A6WU-8rwqWJ-8rthfg-8rwqNq-8rtku4-8rwoPJ-8rwpvG-8rwpWo-8rtkeF-8rwpNj-8rwouf-8rtifr-8rwoZm-8rwmWJ-8rtgCB-8rth6B-8rwrdf-8rtgNr-8rwpkS-8rthpM-8rtjja-8rtgXk-8rwoDN-8rwqvy-8rwqDQ-8rwnaE-8rwnmN-8rwqmJ-8rtiKV-8rwq5d-9Yeewb-aoh37C-8zWGWa-8zWH6T-9XweDb-7MNorS-7MJoYi-ckpfuG-9yVNx5",
-		"notes": "Initally look at YUI modules because they were the 1st to do *async*; Y3 is completely modular & they have an interesting production story; James Burke discusses this in RequireJS history"
+		"notes": "YUI 1st to do *async*; Y3 is completely modular & they have an interesting production story; James Burke discusses this in RequireJS history"
 	},
 
 	{
 		"gist": "https://gist.github.com/wrumsby/5857534",
-		"notes": "The export, Bolderiser, is attached to the Y instance (sorta like a jQuery plugin); module is named; imports defined as requires"
+		"notes": "start inside then work out; the export, Bolderiser, is attached to the Y instance (sorta like a jQuery plugin); module is named; imports defined as requires"
 	},
 
 	{
 		"gist": "https://gist.github.com/wrumsby/5857564",
-		"notes": "Load the seed, configure the loader (yui_config.js), use the module"
+		"notes": "Load the seed, configure the loader (yui_config.js), use the module; EXPLAIN IN DETAIL"
 	},
 
 	{
@@ -173,6 +191,7 @@ var SLIDES = [
 	},
 
 	{
+		"title": "plug the holes - shimming",
 		"image": "http://www.flickr.com/photos/amboo213/4861833706/",
 		"notes": "shimming"
 	},
@@ -187,6 +206,7 @@ var SLIDES = [
 	},
 
 	{
+		"title": "Production",
 		"image": "http://www.flickr.com/photos/danielfoster/4725849931/",
 		"notes": "production - there is a build step - you can't avoid it - use grunt"
 	},
@@ -208,6 +228,7 @@ var SLIDES = [
 	},
 
 	{
+		"title": "Patterns",
 		"image": "http://www.flickr.com/photos/asjaboros/6069841484/",
 		"notes": "patterns -- too much code? mention submodules"
 	},
@@ -266,21 +287,13 @@ var SLIDES = [
 
 	{
 		"cls": "first",
-		"title": "Conclusion: you should use modules, they're awseome.",
-		"notes": "Conclusion: you should use modules, they're awseome; shimming"
+		"title": "Conclusion: you should use modules, they're awesome.",
+		"notes": "Conclusion: you should use modules, they're awesome; shimming"
 	},
 
 	{
 		"image": "http://www.flickr.com/photos/falequin/8443342362/",
 		"notes": "modular thinking; tiny modules - really simple modules that only do 1 thing"
-	},
-
-	{
-		"quote": {
-			"text": "The best thing that can be said of [any piece of] software is that it is too small",
-			"from": "James Halliday aka @substack"
-		},
-		"image": "http://www.flickr.com/photos/theodorescott/8607310734/"
 	},
 
 	{
@@ -290,8 +303,8 @@ var SLIDES = [
 
 	{
 		"cls": "first",
-		"title": "Conclusion: you should use modules, they're awseome.",
-		"notes": "Conclusion: you should use modules, they're awseome; shimming"
+		"title": "Conclusion: you should use modules, they're awesome.",
+		"notes": "Conclusion: you should use modules, they're awesome; shimming"
 	},
 
 	{
