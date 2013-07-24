@@ -310,7 +310,7 @@ var SLIDES = [
 	{
 		"image": "http://www.flickr.com/photos/49512158@N00/6231468612/",
 		"title": "Thank you!",
-		"list": ["@evangoer", "@davglass", "@unscriptable", "@jrburke", "@souders"],
+		"list": ["@evangoer", "@davglass", "@unscriptable", "@jrburke", "@souders", "@nzjames", "@tanya"],
 		"notes": "@davglass, @evangoer, @yaypie, @kiwipom"
 	},
 	{
