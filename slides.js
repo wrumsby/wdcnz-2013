@@ -20,11 +20,6 @@ var SLIDES = [
 	},
 
 	{
-		"image": "http://www.flickr.com/photos/wrumsby/9346033647/",
-		"notes": "a picture"
-	},	
-
-	{
 		"quote": {
 			"text": "The worst thing that can happen to a code base is size",
 			"from": "Steve Yegge"
@@ -32,6 +27,11 @@ var SLIDES = [
 		"image": "http://www.flickr.com/photos/zapthedingbat/517644777/",
 		"notes": "we're buiding bigger apps - scale presents challenges; when faced with those challenges try new things; Alex Sexton - modules > plugins"
 	},
+
+	{
+		"image": "http://www.flickr.com/photos/wrumsby/9346033647/",
+		"notes": "a picture"
+	},	
 
 	{
 		"tweet": "https://twitter.com/keranm/status/315670961594699777",
