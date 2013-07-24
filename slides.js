@@ -20,6 +20,11 @@ var SLIDES = [
 	},
 
 	{
+		"image": "http://www.flickr.com/photos/wrumsby/9346033647/",
+		"notes": "a picture"
+	},	
+
+	{
 		"quote": {
 			"text": "The worst thing that can happen to a code base is size",
 			"from": "Steve Yegge"
@@ -62,11 +67,6 @@ var SLIDES = [
 		},
 		"image": "http://www.flickr.com/photos/theodorescott/8607310734/",
 		"notes": "unix philosophy - @substack, most modules on npm"
-	},
-
-	{
-		"image": "http://www.flickr.com/photos/wrumsby/9346033647/",
-		"notes": "a picture"
 	},
 
 	{
