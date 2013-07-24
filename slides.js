@@ -25,7 +25,7 @@ var SLIDES = [
 			"from": "Steve Yegge"
 		},
 		"image": "http://www.flickr.com/photos/zapthedingbat/517644777/",
-		"notes": "we're buiding bigger apps - scale presents challenges; when faced with those challenges try new things"
+		"notes": "we're buiding bigger apps - scale presents challenges; when faced with those challenges try new things; Alex Sexton - modules > plugins"
 	},
 
 	{
@@ -96,7 +96,7 @@ var SLIDES = [
 
 	{
 		"image": "http://www.flickr.com/photos/26752267@N00/6171360453/in/photolist-apkQsr-dtU9tp-aoehCe-89A6WU-8rwqWJ-8rthfg-8rwqNq-8rtku4-8rwoPJ-8rwpvG-8rwpWo-8rtkeF-8rwpNj-8rwouf-8rtifr-8rwoZm-8rwmWJ-8rtgCB-8rth6B-8rwrdf-8rtgNr-8rwpkS-8rthpM-8rtjja-8rtgXk-8rwoDN-8rwqvy-8rwqDQ-8rwnaE-8rwnmN-8rwqmJ-8rtiKV-8rwq5d-9Yeewb-aoh37C-8zWGWa-8zWH6T-9XweDb-7MNorS-7MJoYi-ckpfuG-9yVNx5",
-		"notes": "YUI 1st to do *async*; Y3 is completely modular & they have an interesting production story; James Burke discusses this in RequireJS history"
+		"notes": "YUI 1st to do *async*; Y3 is completely modular & they have an interesting production story; James Burke discusses this in RequireJS history; Yahoo!; NFL.com; OrionHealth"
 	},
 
 	{
@@ -116,7 +116,7 @@ var SLIDES = [
 
 	{
 		"image": "http://www.flickr.com/photos/martinhoward/6171889982/",
-		"notes": "Most folks writing modular JavaScript in the browser are probably using AMD, inspired by YUI & Dojo; RequireJS, CURL; Boilerplate (REALLY!?!); MooTools 2; Dojo 1.6; jQuery"
+		"notes": "Most folks writing modular JavaScript in the browser are probably using AMD, inspired by YUI & Dojo; LinkedIn; Instagram; RequireJS, CURL; Boilerplate (REALLY!?!); MooTools 2; Dojo 1.6; jQuery"
 	},
 
 	{
@@ -141,7 +141,7 @@ var SLIDES = [
 
 	{
 		"gist": "https://gist.github.com/wrumsby/5907846",
-		"notes": "ExtJS 4 has a pretty nice syntax for defining classes including dependencies - Ext.define w/ a requires property"
+		"notes": "ExtJS 4 has a pretty nice syntax for defining classes including dependencies - Ext.define w/ a requires property; Xero; Fortune 500"
 	},
 
 	{
@@ -214,7 +214,7 @@ var SLIDES = [
 	{
 		"text": "http://l.yimg.com/g/combo/1/3.7.3?cookie/cookie-min.js&oop/oop-min.js&attribute-core/attribute-core-min.js&base-core/base-core-min.js&event-custom-base/event-custom-base-min.js&event-custom-complex/event-custom-complex-min.js&attribute-events/attribute-events-min.js&attribute-extras/attribute-extras-min.js&attribute-base/attribute-base-min.js&attribute-complex/attribute-complex-min.js&base-base/base-base-min.js&dom-core/dom-core-min.js&dom-base/dom-base-min.js&dom-style/dom-style-min.js&selector-native/selector-native-min.js&selector/selector-min.js&node-core/node-core-min.js&node-base/node-base-min.js&event-base/event-base-min.js&node-style/node-style-min.js&anim-base/anim-base-min.js&anim-color/anim-color-min.js&dom-screen/dom-screen-min.js&node-screen/node-screen-min.js&anim-xy/anim-xy-min.js&anim-curve/anim-curve-min.js&anim-easing/anim-easing-min.js&pluginhost-base/pluginhost-base-min.js&pluginhost-config/pluginhost-config-min.js&node-pluginhost/node-pluginhost-min.js&anim-node-plugin/anim-node-plugin-min.js&anim-scroll/anim-scroll-min.js&event-delegate/event-delegate-min.js&event-synthetic/event-synthetic-min.js&event-mousewheel/event-mousewheel-min.js&event-mouseenter/event-mouseenter-min.js&event-key/event-key-min.js&event-focus/event-focus-min.js&event-resize/event-resize-min.js&event-hover/event-hover-min.js&event-outside/event-outside-min.js&event-touch/event-touch-min.js&event-move/event-move-min.js&event-flick/event-flick-min.js&event-valuechange/event-valuechange-min.js&event-tap/event-tap-min.js&base-pluginhost/base-pluginhost-min.js&base-build/base-build-min.js&node-event-delegate/node-event-delegate-min.js&classnamemanager/classnamemanager-min.js&widget-base/widget-base-min.js&widget-htmlparser/widget-htmlparser-min.js&widget-skin/widget-skin-min.js&widget-uievents/widget-uievents-min.js&widget-stdmod/widget-stdmod-min.js&widget-position/widget-position-min.js&widget-position-align/widget-position-align-min.js&widget-stack/widget-stack-min.js",
 		"cls": "full",
-		"notes": "combo loader is async so non-blocking; Souders; conditional; millions of page views - *every* page at Yahoo!"
+		"notes": "combo loader is async so non-blocking; Souders; conditional; millions of page views - *every* page at Yahoo!; Zakas - ~60% not executed"
 	},
 
 	{
